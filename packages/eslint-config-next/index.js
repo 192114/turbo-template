@@ -12,4 +12,10 @@ module.exports = {
       presets: [require.resolve('next/babel')],
     },
   },
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+    },
+  ],
 }

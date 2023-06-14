@@ -10,9 +10,10 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
   },
-  parserOptions: {
-    babelOptions: {
-      presets: [require.resolve('next/babel')],
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
     },
-  },
+  ],
 }
