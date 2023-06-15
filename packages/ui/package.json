@@ -9,12 +9,12 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "eslint": "^7.32.0",
     "@config/eslint-config-next": "workspace:*",
-    "react": "^17.0.2",
     "@config/tsconfig": "workspace:*",
-    "typescript": "^4.5.2"
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "eslint": "^8.42.0",
+    "react": "^18.2.0",
+    "typescript": "^5.1.3"
   }
 }

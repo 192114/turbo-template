@@ -16,5 +16,14 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       parser: '@typescript-eslint/parser',
     },
+    {
+      // Adapt to your needs (e.g. some might want to only override "next.config.js")
+      files: ['*.js', '*.mjs'],
+      // This is the default parser of ESLint
+      parser: 'espree',
+      parserOptions: {
+        ecmaVersion: 2020,
+      },
+    },
   ],
 }
