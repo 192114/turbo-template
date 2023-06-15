@@ -5,10 +5,12 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:react/jsx-runtime',
     'turbo',
+    'plugin:prettier/recommended'
   ],
-  plugins: ['plugin:prettier/recommended'],
   rules: {
     'prettier/prettier': 'error',
+    'arrow-body-style': 'off',
+    'prefer-arrow-callback': 'off',
   },
   overrides: [
     {
